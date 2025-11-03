@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Partecipazione Silvia & Pasquale</title>
+
+  <!-- Font e icone -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+html {
+  background: url('img/sfondo.jpg') center/cover no-repeat fixed;
+}
+
+body.invito {
+  font-family: 'Playfair Display', serif;
+  color: #13233b;
+  padding-top: 140px; /* padding superiore desktop */
+  padding-bottom: 40px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 60px 40px;
+  text-align: center;
+  min-height: 70vh;
+  margin-top: 40px;
+}
+
+h1, h1 span, .intro, .details, .gift, .rsvp {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 72px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #153766;
+}
+
+h1 span {
+  display: block;
+  font-size: 26px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #3e4e66;
+}
+
+.intro, .details, .gift, .rsvp {
+  margin: 30px 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.details i, .gift i, .rsvp i {
+  margin-right: 8px;
+  color: #1a4a89;
+}
+
+.gift .iban {
+  font-family: monospace;
+  font-size: 22px;
+  color: #102132;
+  display: block;
+  margin: 5px 0;
+}
+
+.rsvp .deadline {
+  font-size: 22px;
+  font-weight: bold;
+  color: #153766;
+}
+
+.rsvp .whatsapp {
+  font-size: 22px;
+}
+
+a {
+  color: #1a4a89;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: bold;
+  color: #153766;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Responsive per smartphone */
+@media (max-width: 600px) {
+  body.invito {
+    padding-top: 620px; /* aumentato di altre 5 righe (~180px in più rispetto a 440px) */
+    padding-bottom: 40px;
+  }
+
+  .content {
+    padding: 20px 16px;
+    min-height: 80vh;
+    margin-top: 60px;
+  }
+
+  h1 {
+    font-size: 64px;
+    margin-top: 20px;
+  }
+
+  h1 span {
+    font-size: 26px;
+  }
+
+  .intro, .details, .gift, .rsvp {
+    font-size: 24px;
+  }
+
+  .gift .iban,
+  .rsvp .deadline,
+  .rsvp .whatsapp {
+    font-size: 26px;
+  }
+
+  a {
+    font-size: 22px;
+  }
+}
+
+</style>
+
+</head>
+
+<body class="invito">
+
+  <div class="content">
+    <h1>Silvia & Pasquale<br>
+      <span>Annunciano con gioia il loro matrimonio</span>
+    </h1>
+
+    <div class="intro">
+      Sarà per noi un giorno speciale<br>
+      e desideriamo condividerlo con le persone che amiamo.
+    </div>
+
+    <div class="details">
+      <p><i class="fa-solid fa-calendar-day"></i> <strong>Martedì 16 Giugno 2026</strong> alle ore <strong>10:30</strong></p>
+      <p><i class="fa-solid fa-church"></i> <strong>Basilica Santa Croce</strong><br>
+        <a href="https://maps.app.goo.gl/qqVv553qjf8HgetAA" target="_blank" rel="noopener noreferrer">Visualizza su Google Maps</a>
+      </p>
+      <p><i class="fa-solid fa-champagne-glasses"></i> <strong>Royal Vesuvio</strong><br>
+        <a href="https://maps.app.goo.gl/GnvfibQFxvB2R2Xo7" target="_blank" rel="noopener noreferrer">Scopri la location</a>
+      </p>
+    </div>
+
+    <div class="gift">
+      <p>La vostra presenza è il dono più bello.</p>
+      <p>Se desiderate farci un pensiero:</p>
+      <p><i class="fa-solid fa-gift"></i> <strong>IBAN:</strong>
+        <span class="iban">IT53T0538753100000003553805</span>
+        Intestato a: <strong>Pasquale Matino e Silvia Fusco</strong><br>
+        Causale: “Regalo di nozze — Silvia e Pasquale”
+      </p>
+    </div>
+
+    <div class="rsvp">
+      <p class="deadline"><i class="fa-regular fa-calendar-check"></i> Vi preghiamo di confermare la presenza entro il 31 Gennaio 2026</p>
+      <p class="whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/393349259412" target="_blank" rel="noopener noreferrer">+39 334 925 9412</a></p>
+    </div>
+  </div>
+</body>
+</html>

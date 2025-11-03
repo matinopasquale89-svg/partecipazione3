@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Silvia & Pasquale — Save the Date</title>
+
+  <!-- ✅ Meta tag Open Graph per anteprima WhatsApp -->
+  <meta property="og:title" content="Silvia & Pasquale — Save the Date" />
+  <meta property="og:description" content="Scopri il nostro invito di nozze 💍✨" />
+  <meta property="og:image" content="https://matinopasquale89-svg.github.io/partecipazione/img/foto1.png?v=2" />
+  <meta property="og:url" content="https://matinopasquale89-svg.github.io/partecipazione/" />
+  <meta property="og:type" content="website" />
+
+  <!-- ✅ Mobile-friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ✅ Stile -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: url('img/sfondo.jpg') center/cover no-repeat fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    .container {
+      background: none;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    .monogram {
+      font-size: 96px;
+      color: #153766;
+      margin-bottom: 30px;
+    }
+
+    .polaroid {
+      display: inline-block;
+      background: white;
+      padding: 10px 10px 25px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.2);
+      transform: rotate(-1deg);
+      transition: transform 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .polaroid:hover {
+      transform: scale(1.03);
+    }
+
+    .polaroid img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      display: block;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 18px;
+      font-family: sans-serif;
+    }
+
+    @media (max-width: 600px) {
+      .polaroid {
+        padding: 8px 8px 20px;
+        transform: rotate(0deg);
+      }
+
+      .monogram {
+        font-size: 48px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Monogramma -->
+    <div class="monogram">S & P</div>
+
+    <!-- Foto in stile polaroid cliccabile -->
+    <a href="invito.html" class="polaroid">
+      <img src="img/foto.jpg" alt="Silvia e Pasquale">
+      <div class="caption">Scopri il nostro invito 💌</div>
+    </a>
+  </div>
+
+</body>
+</html>
